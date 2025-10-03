@@ -1,0 +1,58 @@
+/* Seção de horários */
+.hours-info {
+    margin: 40px 0;
+    padding: 30px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.hours-info h2 {
+    color: var(--rosa-pastel);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--amarelo-pastel);
+}
+
+.hours-details {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.hours-item {
+    background-color: var(--cinza-claro);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.hours-item h3 {
+    color: var(--azul-pastel);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.hours-item p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Responsividade para a seção de horários */
+@media (max-width: 480px) {
+    .hours-item {
+        padding: 20px;
+    }
+    
+    .hours-item h3 {
+        font-size: 1.2rem;
+    }
+    
+    .hours-item p {
+        font-size: 1rem;
+    }
+}
