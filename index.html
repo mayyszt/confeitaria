@@ -1,23 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>Mayra's Sweet Delights - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <header>
-        <nav>
-           <a href="index.html">Página Inicial</a>
-           <a href="cardápio.html">Cardápio</a>
-           <a href="info.html">Informações</a>
-        </nav>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Mayra's Sweet Delights</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Início</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="info.html">Informações</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <h1>Olá</h1>
+    <main class="container">
+        <!-- Banner principal -->
+        <section class="banner">
+            <h1>Bem-vindo à Mayra's Sweet Delights</h1>
+            <p>Os melhores bolos, doces e sobremesas com ingredientes de alta qualidade</p>
+        </section>
 
+        <!-- Seção de destaques -->
+        <section class="highlights">
+            <h2>Destaques da Semana</h2>
+            <div class="products">
+                <div class="product-card">
+                    <div class="product-image" style="background-color: #ffafcc;">
+                        <span>Bolo de Morango</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bolo de Morango</h3>
+                        <p>Delicioso bolo recheado com morangos frescos e creme</p>
+                        <div class="price-promo">
+                            <span class="original-price">R$ 82,00</span>
+                            <span class="promo-price">R$ 65,90</span>
+                            <span class="promo-badge">-20%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-color: #a2d2ff;">
+                        <span>Cupcakes Coloridos</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cupcakes Coloridos</h3>
+                        <p>Conjunto de 6 cupcakes com sabores variados</p>
+                        <div class="price-promo">
+                            <span class="original-price">R$ 45,00</span>
+                            <span class="promo-price">R$ 35,90</span>
+                            <span class="promo-badge">-20%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-color: #ffd166;">
+                        <span>Donuts Especiais</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Donuts Especiais</h3>
+                        <p>Donuts com coberturas variadas e recheio cremoso</p>
+                        <div class="price-promo">
+                            <span class="original-price">R$ 40,00</span>
+                            <span class="promo-price">R$ 32,90</span>
+                            <span class="promo-badge">-18%</span>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="product-card">
+                    <div class="product-image" style="background-color: #cdb4db;">
+                        <span>Torta Holandesa</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Torta Holandesa</h3>
+                        <p>Deliciosa torta com camadas de chocolate e creme</p>
+                        <div class="price">
+                            <span class="current-price">R$ 65,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção sobre -->
+        <section class="about-preview">
+            <h2>Por que escolher a Mayra's Sweet Delights?</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3>🍰 Ingredientes Frescos</h3>
+                    <p>Utilizamos apenas ingredientes selecionados e de alta qualidade</p>
+                </div>
+                <div class="feature-item">
+                    <h3>👩‍🍳 Produção Artesanal</h3>
+                    <p>Cada doce é preparado com carinho e atenção aos detalhes</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🚚 Entrega Rápida</h3>
+                    <p>Entregamos em toda a cidade com máxima qualidade</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de promoções -->
+        <section class="promotions">
+            <h2>Promoções Especiais</h2>
+            <div class="promo-cards">
+                <div class="promo-card">
+                    <h3>Kit Festa Completo</h3>
+                    <p>Bolo + 20 docinhos + cupcakes</p>
+                    <div class="promo-price-large">
+                        <span class="original-price">R$ 180,00</span>
+                        <span class="promo-price">R$ 149,90</span>
+                    </div>
+                    <span class="promo-badge-large">-17%</span>
+                </div>
+                <div class="promo-card">
+                    <h3>Combo Doces Finos</h3>
+                    <p>Brigadeiro + Beijinho + Casadinho</p>
+                    <div class="promo-price-large">
+                        <span class="original-price">R$ 85,00</span>
+                        <span class="promo-price">R$ 69,90</span>
+                    </div>
+                    <span class="promo-badge-large">-18%</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Mayra's Sweet Delights</h3>
+                <p>Rua dos Doces, 123 - Centro</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <div class="footer-links">
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://web.whatsapp.com/">WhatsApp</a>
+                </div>
+                <p>&copy; 2023 Mayra's Sweet Delights. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
