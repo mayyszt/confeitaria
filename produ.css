@@ -353,9 +353,8 @@ footer {
     background-color: var(--azul-pastel);
     color: white;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     margin-top: 60px;
-    animation: fadeInUp 1s ease-out;
 }
 
 .footer-content {
@@ -364,31 +363,9 @@ footer {
     align-items: center;
 }
 
-.footer-content h3 {
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-}
-
-.footer-links {
-    display: flex;
-    margin: 25px 0;
-    gap: 20px;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-    border: 2px solid white;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-}
-
-.footer-links a:hover {
-    background-color: white;
-    color: var(--azul-pastel);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.footer-content p {
+    margin: 0;
+    font-size: 1rem;
 }
 
 @keyframes fadeIn {
